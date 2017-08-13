@@ -1,6 +1,5 @@
 import React from 'react'
 import ancientQuotes from '../data/quotes'
-import keeb from './hhkb.png'
 import divineLinks from '../data/imagelinks'
 import finalThoughts from '../data/finalThoughts'
 import './index.css'
@@ -27,7 +26,7 @@ const IndexPage = () =>
         </div>
 
         <div className="imagewrapper">
-          <img src={keeb} alt="keyboard layout"/>
+          <img src="http://i.imgur.com/AQaoTpX.png" alt="keyboard layout"/>
         </div>
       </div>
     </div>
