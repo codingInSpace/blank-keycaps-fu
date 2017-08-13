@@ -5,7 +5,8 @@ import divineLinks from '../data/imagelinks'
 import finalThoughts from '../data/finalThoughts'
 import './index.css'
 
-const bgImg = divineLinks[Math.floor(Math.random() * divineLinks.length)]
+//const bgImg = divineLinks[Math.floor(Math.random() * divineLinks.length)]
+const bgImg = divineLinks[0]
 
 const IndexPage = () =>
   <div>
@@ -32,7 +33,7 @@ const IndexPage = () =>
     </div>
 
     <div className="footer">
-      <p>{ finalThoughts[Math.floor(Math.random() * finalThoughts.length)] }</p>
+      <p>{ finalThoughts[Math.floor(Math.random() * finalThoughts.length)] } Be at peace and return wiser.</p><br/>
     </div>
   </div>
 
