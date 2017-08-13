@@ -1,6 +1,8 @@
 const imageLinks = [
-  'https://imgur.com/M0QigLL.jpg',
-  'https://imgur.com/jqGlvtC.jpg'
+  'https://imgur.com/jqGlvtC.jpg',
+  'http://i.imgur.com/8uoi4tl.jpg',
+  'http://i.imgur.com/bdOP5KN.jpg',
+  'http://i.imgur.com/i338o2j.jpg'
 ]
 
 export default imageLinks

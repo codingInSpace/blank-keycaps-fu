@@ -2,11 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import divineLinks from '../data/imagelinks'
 
 import './index.css'
-
-const bgImg = divineLinks[Math.floor(Math.random() * divineLinks.length)]
 
 const Header = () =>
   <div
@@ -37,10 +34,7 @@ const Header = () =>
   </div>
 
 const TemplateWrapper = ({ children }) =>
-  <div style={{
-    backgroundImage: `url(${bgImg})`,
-    backgroundSize: 'cover'
-  }}>
+  <div>
     <Helmet
       title="YOU CAN DO IT"
       meta={[
@@ -48,13 +42,7 @@ const TemplateWrapper = ({ children }) =>
         { name: 'keywords', content: 'keycaps, good, nice' },
       ]}
     />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        paddingTop: 70,
-      }}
-    >
+    <div>
       {children()}
     </div>
   </div>

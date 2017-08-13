@@ -1,9 +1,7 @@
 const ancientQuotes = [
     "The path to enlightenment has many stones",
     "Do not stray from your path, for enlightenment comes with perseverance",
-    "The only Zen you find on tops of mountains is the Zen you bring there",
     "Enlightenment occurs when someone becomes inspired by information and uses it to enhance their life",
-    "Be master of mind rather than mastered by mind",
     "The reward of all action is to be found in enlightenment",
     "The real meaning of enlightenment is to gaze with undimmed eyes on all darkness",
     "Enlightenment must come little by little - otherwise it would overwhelm",
