@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -617,6 +618,18 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+
+  align-content: center;
+}
+
+.container p {
+  text-align: center !important;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
