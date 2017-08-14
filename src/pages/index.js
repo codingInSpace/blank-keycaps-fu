@@ -12,7 +12,8 @@ const IndexPage = () =>
     <div style={{
       backgroundImage: `url(${bgImg})`,
       backgroundSize: 'cover',
-      borderBottom: '2px solid #522856'
+      borderBottom: '2px solid #522856',
+      minHeight: '90vh'
     }}>
       <div style={{
         margin: '0 auto',
@@ -31,7 +32,7 @@ const IndexPage = () =>
       </div>
     </div>
 
-    <div className="footer">
+    <div className="footer" style={{minHeight: '10vh'}}>
       <p>{ finalThoughts[Math.floor(Math.random() * finalThoughts.length)] } Be at peace and return wiser.</p><br/>
     </div>
   </div>
