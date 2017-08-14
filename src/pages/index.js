@@ -23,6 +23,15 @@ class IndexPage extends React.Component {
     })
   }
 
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        quote: ancientQuotes[Math.floor(Math.random() * ancientQuotes.length)],
+        footerText: finalThoughts[Math.floor(Math.random() * finalThoughts.length)]
+      })
+    }, 10000)
+  }
+
   render() {
     return (
 
