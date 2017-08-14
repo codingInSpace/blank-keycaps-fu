@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
         quote: ancientQuotes[Math.floor(Math.random() * ancientQuotes.length)],
         footerText: finalThoughts[Math.floor(Math.random() * finalThoughts.length)]
       })
-    }, 10000)
+    }, 15000)
   }
 
   render() {
